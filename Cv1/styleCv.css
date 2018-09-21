@@ -1,0 +1,13 @@
+body{display: flex; align-items: center; justify-content: space-around; flex-wrap: nowrap; height: 500px; width: 100%;}
+
+.information{display: flex; align-self: stretch;; flex-direction: column; justify-content: space-around; align-items: center; height: 100%; width: 15%; background-color: Blue;}
+.Photo{background-color: black; height: 20%; width: 80%;}
+.Communication{background-color: Green; height: 50%; width: 80%;}
+
+.Bloc2{width: 80%; height: 100%;}
+.Parcours{display: flex; background-color: purple; flex-wrap: nowrap; justify-content: space-around; height: 70%; width: 100%;}
+  .ExpériencesPro{background-color: yellow; align-self: center; height: 90%; width: 45%;}
+  .Formation{background-color: yellow; align-self: center;  height: 90%; width: 45%;}
+.extra{background-color: red; align-self: flex-end; height: 30%; width: 100%;}
+
+.Ligne{overflow: auto;}
