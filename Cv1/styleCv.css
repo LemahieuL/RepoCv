@@ -1,13 +1,60 @@
-body{display: flex; align-items: center; justify-content: space-around; flex-wrap: nowrap; height: 500px; width: 100%;}
+body{
+  font-family: fantasy;
+  margin: 0px;
+  padding: 0px;
+}
+nav{
+  width: 100%;
+  background-color: Blue;
+}
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+    padding: 20px 30px;
+    color: #FFF;
+    }
+nav > ul::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+nav > ul > li {
+    float: left;
+    position: relative;
+  }
+nav li{
+  list-style: none;
+}
+.sous-menu{
+  display: none;
+}
+nav a{
+  display: inline-block;
+  text-decoration: none;
+}
+nav li:hover .sous-menu{ /* fait apparaitre le menu quand on passe la souris par dessus */
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  padding: 0px;
+  z-index: 1000;
+}
 
-.information{display: flex; align-self: stretch;; flex-direction: column; justify-content: space-around; align-items: center; height: 100%; width: 15%; background-color: Blue;}
-.Photo{background-color: black; height: 20%; width: 80%;}
-.Communication{background-color: Green; height: 50%; width: 80%;}
-
-.Bloc2{width: 80%; height: 100%;}
-.Parcours{display: flex; background-color: purple; flex-wrap: nowrap; justify-content: space-around; height: 70%; width: 100%;}
-  .ExpériencesPro{background-color: yellow; align-self: center; height: 90%; width: 45%;}
-  .Formation{background-color: yellow; align-self: center;  height: 90%; width: 45%;}
-.extra{background-color: red; align-self: flex-end; height: 30%; width: 100%;}
-
-.Ligne{overflow: auto;}
+.sous-menu li{
+  border-bottom: 1px solid #BBB;
+  background-color: blue;
+}
+.sous-menu li a{
+  padding: 15px 30px;
+  font-size: 13px;
+  color: #FFF;
+  width: 270px;
+}
+.menu-Menu:hover{
+  background-color: rgba(220, 220, 220, 0.15);
+}
+.sous-menu li:hover a{
+  color: black;
+  font-weight: bold;
+}
