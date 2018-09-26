@@ -1,0 +1,19 @@
+#body {
+  background-color: #bab0ae;
+  align-content: center;
+}
+ul{
+  list-style: none;
+}
+h1{
+  text-align: center;
+}
+.home{
+  height: 50vh;
+  width: 100%;
+}
+.contact{
+  background-color: red;
+  height: 50vh;
+  width: 100%;
+}
