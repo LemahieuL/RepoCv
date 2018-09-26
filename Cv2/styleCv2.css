@@ -29,14 +29,14 @@ ul.timeline:before {
     left: 29px;
     width: 2px;
     height: 100%;
-    z-index: 400;
+    z-index: 300;
 }
 ul.timeline > li {
     margin: 20px 0;
     padding-left: 20px;
 }
 ul.timeline > li:before {
-    content: ' ';
+    content: '';
     background: white;
     display: inline-block;
     position: absolute;
